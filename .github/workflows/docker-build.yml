@@ -40,6 +40,5 @@ jobs:
         push: true
         tags: |
           ghcr.io/${{ env.IMAGE_NAME }}:latest
-          ghcr.io/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.VERSION }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
