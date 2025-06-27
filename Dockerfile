@@ -1,4 +1,4 @@
-FROM ghcr.io/znpos901/build-server:latest
+FROM ghcr.io/znpos901/build-server:0623
 
 # 切换到user用户
 USER user
